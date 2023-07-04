@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webshop</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+            <li><a href="/"><button id="home-btn">Home</button></a></li>
+            <li><button id="catalog-btn">Catalog</button></li>
+            <!-- <li><a href="/catalog" id="catalog-link">Catalog</a></li> -->
+            <li><a href="/cart.html" id="cart-link"><button id="cart-btn">Cart</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="content">
+    <!-- Landing page -->
+    <div id="landing-page">
+      <h1>Welcome to our shop</h1>
+      <div id="product-list">
+        <!-- Product cards will be dynamically added here -->
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- Catalog -->
+  <div id="catalog-container" style="display: none;"></div>
+  <!-- Catalog content will be inserted here using innerHTML -->
+
+
+<script src="index.js"></script>
+</body>
+</html>
